@@ -11,3 +11,22 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "burtons";
+  src: url("../public/Burtons.otf");
+}
+
+@font-face {
+  font-family: "latoregular";
+  src: url("../public/Lato-Regular.ttf");
+}
+
+
+@font-face {
+  font-family: "latoBold";
+  src: url("../public/Lato-Bold.ttf");
+}
